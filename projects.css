@@ -1,0 +1,159 @@
+body {
+    background-color: #222;
+    color: #c8d1d0;
+    font-family:NT Vanilla, sans-serif;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+.dropdwn-container {
+   display: flex; 
+   align-items: flex-end;
+   justify-content: flex-end;
+   margin-right: 30px;
+}
+.dropdwn {
+    position: relative;
+    display: inline-block;
+}
+.dropdwn-content {
+    display: none;
+    position: absolute; 
+    background-color: #222;
+    color: #c8d1d0;
+    min-width: 160px;
+    z-index: 1;
+    
+
+}
+.dropdwn-content a {
+    color: #c8d1d0;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    
+}
+.dropdwn-content a:hover {
+    color: #007ced;
+}
+.dropdwn:hover .dropdwn-content {
+  display: block;
+}
+
+header { 
+ padding: 20px;
+}
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 30px;
+}
+.head .header-paragraph {
+    width: 500px;
+}
+section {
+    padding: 20px;
+    border-top: 1px solid black;
+    width: 100%;
+    overflow: hidden;
+}
+
+.flex-group {
+  display: flex;
+}
+
+.info-container {
+    flex: 50%;
+    margin-left: 60px;
+}
+.img-container {
+    flex: 50%;
+    margin-left: 80px;
+}
+.flex-group-recipe {
+    display: flex;
+}
+.info-container-recipe {
+    flex:50%;
+    margin-left: 60px;
+}
+.img-container-recipe {
+    flex: 50%;
+    margin-left: 80px;
+}
+.tiny-sections {
+    padding-top: 100px;
+}
+#sections {
+    padding-bottom: 100px;
+}
+.bt-n {
+    margin-top: 30px;
+}
+button {
+    border-color: #007ced;
+    color: #fff;
+    background-color: #222;
+    padding: 12px 25px;
+    margin: 5px 0;
+    margin-right: 7px;
+    border-radius: 30px;
+    border: 2px solid #007ced;
+    box-shadow: 0 10px 10px -8px rgb(0 0 0 / 78%);
+    cursor: pointer; 
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+@media(max-width:930px) {
+ header {
+    padding: 10px;
+ }
+ h1 {
+    margin-left: 4px;
+    font-size: 25px;
+ }
+ .head {
+    width: 100%;
+ }
+ section {
+    padding: 10px;
+ }
+ .flex-group {
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+ }
+ .info-container {
+    margin-left: 10px;
+    
+ }
+ .img-container {
+    margin-left: 15px;
+    padding-top: 25px;
+    
+ }
+ .image-design {
+   width: 300px;
+   height: 200px;
+ }
+ .flex-group-recipe {
+    flex-direction: column;
+    flex-wrap: wrap;
+ }
+ .info-container-recipe {
+    margin-left: 10px;
+ }
+ .img-container-recipe {
+    margin-left: 15px;
+    padding-top: 25px;
+ }
+ .github-link {
+    text-align: center;
+ }
+   
+}

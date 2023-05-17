@@ -1,0 +1,132 @@
+
+body {
+    background-color: #222;
+    color: #c8d1d0;
+    font-size: 17px;
+    letter-spacing: 0.8px;
+    flex-wrap: wrap;
+}
+.dropdwn-container {
+    display: flex; 
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-right: 30px;
+ }
+ .dropdwn {
+     position: relative;
+     display: inline-block;
+ }
+ .dropdwn-content {
+     display: none;
+     position: absolute; 
+     background-color: #222;
+     color: #c8d1d0;
+     min-width: 160px;
+     z-index: 1;
+     
+ 
+ }
+ .dropdwn-content a {
+     color: #c8d1d0;
+     padding: 12px 16px;
+     text-decoration: none;
+     display: block;
+     
+ }
+ .dropdwn-content a:hover {
+     color: #007ced;
+ }
+ .dropdwn:hover .dropdwn-content {
+   display: block;
+ }
+ 
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-cover {
+    border-top: 1px solid black;
+    display: flex;
+    height: 700px;
+}
+.imag-cover {
+    flex: 40%;
+    margin-top: 40px;
+    margin-left: 60px;
+    width: 200px;
+    height: 620px;
+    
+}
+
+.about {
+    flex: 65%;
+    margin-top: 40px;
+}
+.para1 {
+   padding: 10px;
+}
+.para2 {
+    padding: 10px;
+}
+.para3 {
+    padding: 10px;
+}
+.para4 {
+ padding: 10px;
+}
+.para5 {
+    padding: 10px;
+}
+.para6 {
+    padding: 10px;
+}
+.btnn-cover {
+    padding: 5px;
+}
+.btnn-cover .btnn {
+    border-color: #d5d5d5;
+    color: #fff;
+    background-color: #333;
+    padding: 12px 25px;
+    margin: 5px 0;
+    margin-right: 7px;
+    border-radius: 30px;
+    border: 2px solid #e5e5e5;
+    box-shadow: 0 10px 10px -8px rgb(0 0 0 / 78%);
+    cursor: pointer;
+}
+
+.btnn:hover {
+    color: #007ced;
+    transition: 0.5s;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+@media(max-width:930px) {
+    body {
+        font-size: 18px;
+        letter-spacing: 0.9px;
+        line-height: 30px;
+    }
+    .about-cover {
+        flex-direction: column;
+        height: 0px;
+    }
+    .imag-cover {
+        margin-left: 40px;
+    }
+    .imgg {
+        width: 250px;
+        height: 280px;
+    }
+   .about {
+    width: 100%;
+    flex-wrap: wrap;
+   }
+   .btnn-cover {
+    text-align: center;
+   }
+}
