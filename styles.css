@@ -9,7 +9,8 @@
     line-height: 30px;
 }
 
-body {
+html, body {
+    position: relative;
     overflow-x: hidden;
     color: #c8d1d0;
 }
