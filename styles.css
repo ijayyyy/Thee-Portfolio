@@ -2,9 +2,11 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: poppins, sans-serif;
+    font-family: NT Vanilla, sans-serif;
     text-decoration: none;
-    scroll-behavior: smooth;
+    letter-spacing: 1.2px;
+    font-size: 17px;
+    line-height: 30px;
 }
 
 body {
@@ -44,7 +46,7 @@ header {
 .logo i {
     height: 45px;
     width: 45px;
-    background: #007ced;
+    background: #b16afd;
     border-radius: 50%;
     color: #fff;
     font-weight: 700px;
@@ -74,12 +76,18 @@ nav .hamburger {
 
 nav .hamburger span {
     display: block;
-    background: #007ced;
+    background: #b16afd;
     margin: 5px 0px;
     width: 100%;
     height: 3px;
     transition: 0.3s; 
     transition-property: transform, opacity;
+}
+.p-1 {
+    padding-top: 35px;
+}
+h-1 {
+    padding-top: 45px;
 }
 
 nav .navlinks {
@@ -95,6 +103,11 @@ nav .navlinks li a {
     margin-right: 2.5rem;
 }
 
+nav .navlinks li a:hover {
+    color:#b16afd ;
+    transition: 0.3s;
+}
+
 .container-2 {
     display: flex;
     justify-content: space-around;
@@ -107,7 +120,7 @@ nav .navlinks li a {
     height: 300px;
     border-radius: 50%;
     overflow: hidden;
-    border: 15px solid #444;
+    border: 8px solid grey;
     box-shadow: 5px 7px 25px rgba(0,0,0,0.5);
 }
 
@@ -133,12 +146,11 @@ nav .navlinks li a {
 }
 
 .hero-text h5 span {
-    color: #007ced;
     font-size: 16px;
 }
 
 .hero-text h1 {
-    color: #007ced;
+    color: #b16afd;
     font-size: 3rem;
 }
 
@@ -162,8 +174,21 @@ nav .navlinks li a {
     box-shadow: 0 10px 10px -8px rgb(0 0 0 / 78%);
 }
 
+.btn:hover {
+    transform: translateY(-5px);
+    box-shadow: .0rem .2rem .4rem #777;
+    /* line I added */
+    border-color:#b16afd;
+    pointer-events: visible;
+    position: relative;
+    z-index: 0;
+    visibility: visible;
+    float: none;
+    transition: 0.3s;
+}
+
 .btn-active {
-    border-color: #007ced;
+    border-color: #b16afd;
 }
 
 .hero-text .socials i {
@@ -174,7 +199,7 @@ nav .navlinks li a {
 }
 
 .hero-text .socials i:hover {
-    color: #007ced;
+    color: #b16afd;
 }
 
 /* responsive design */

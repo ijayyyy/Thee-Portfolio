@@ -47,16 +47,17 @@ body {
     margin-top: 100px;
 }
 .social-cover {
-    width: 300px;
-    height: 200px;
-    margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
-.social {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+
+.social  {
+    width: 200px;
 }
+
+
 .para-1 {
     width: 600px;
 }
@@ -68,6 +69,9 @@ body {
     .para-1 {
         width: 100%;
         
+    }
+    .dropdwn-container {
+        display: none;
     }
 }
 
