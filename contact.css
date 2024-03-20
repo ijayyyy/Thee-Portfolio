@@ -25,6 +25,7 @@ body {
      
  
  }
+a { color: inherit; } 
  .dropdwn-content a {
      color: #c8d1d0;
      padding: 12px 16px;
