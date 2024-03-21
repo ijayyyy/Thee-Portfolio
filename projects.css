@@ -25,7 +25,7 @@ body {
     
 
 }
-a { color: inherit; 
+a { color: white; 
    text-decoration:none; 
   } 
 .dropdwn-content a {
@@ -121,7 +121,9 @@ button:hover {
     float: none;
     transition: 0.3s;
 }
-
+ .github-link a {
+  text-decoration
+ }
 
 ::-webkit-scrollbar {
     display: none;
