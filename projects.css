@@ -122,7 +122,7 @@ button:hover {
     transition: 0.3s;
 }
  .github-link a {
-  text-decoration
+  color: #b16afd;
  }
 
 ::-webkit-scrollbar {
